@@ -53,7 +53,6 @@ budgetLine a su vez, será un DTO de este tipo:
 
 - netAmount (decimal, requerido)
 - vat (decimal, requerido)
-- vatAmount (decimal, requerido)
 
 El importe del IVA (vatAmount) se calcula: (netAmount * vat) / 100.
 
